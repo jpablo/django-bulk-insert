@@ -14,7 +14,9 @@ bulk_insert(objects)
 
 If you want to inspect the generated sql instead:
 
+<pre>
 bulk_insert(objects, show_sql=True)
+</pre>
 
 ## limitations
 
