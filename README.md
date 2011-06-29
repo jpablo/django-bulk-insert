@@ -1,7 +1,7 @@
 
 # Mysql Bulk Insert
 
-Generate the mysql sql code for bulk insertion
+Bulk inserts django objects by generating the sql as text and using cursor.execute()
 
 
 ## Example usage:
