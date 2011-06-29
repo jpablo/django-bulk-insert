@@ -6,10 +6,11 @@ Generate the mysql sql code for bulk insertion
 
 ## Example usage:
 
+<pre>
 from mysql_bulk_insert import bulk_insert
 objects = [o1,o2,o3,...]
 bulk_insert(objects)
-
+</pre>
 
 If you want to inspect the generated sql instead:
 
