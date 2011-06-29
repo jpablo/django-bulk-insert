@@ -6,17 +6,17 @@ Bulk-inserts django objects by generating the sql as text and using cursor.execu
 
 ## Example usage:
 
-<pre>
+```python
 from mysql_bulk_insert import bulk_insert
 objects = [o1,o2,o3,...]
 bulk_insert(objects)
-</pre>
+```
 
 If you want to inspect the generated sql instead:
 
-<pre>
+```python
 bulk_insert(objects, show_sql=True)
-</pre>
+```
 
 ## limitations
 
